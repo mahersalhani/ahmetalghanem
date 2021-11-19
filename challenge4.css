@@ -1,0 +1,160 @@
+body{
+    background-color: #eee;
+    text-transform: capitalize;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    box-sizing: border-box;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 6000px;
+
+}
+
+.perant1{
+    display: flex;
+    background-color: #fff;
+    width: 900px;
+    height: 250px;
+    border-radius: 5px;
+    margin: 10px auto;
+}
+
+.perant1 .a1{
+    width: 450px;
+    margin-right: 7px;
+    border-right: solid #eee 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.perant1 .a1 .player{
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+}
+
+.a1 .photo{
+    width: 89px;
+    height: 89px;
+    border-radius: 50%;
+    background-color: #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.a1 h4{
+    margin-top: 9px;
+    margin-left: 5px;
+}
+
+.a1 .level{
+    width: 85%;
+    height: 18px;
+    background-image: linear-gradient(to right, #009688 80% , #ddd 80%);
+    border-radius: 6px;
+    margin-top: -14px;
+    margin-bottom: 7 px;
+}
+
+.a1 .level-points{
+    font-size: 10px;
+}
+
+.perant2{
+    display: flex;
+    background-color: #fff;
+    width: 900px;
+    height: 250px;
+    border-radius: 5px;
+    flex-direction: column;
+    margin: 30px auto;
+    padding: 10px;
+}
+
+.perant2 .line{
+    border-bottom: #eee 1px solid;
+    padding-bottom: 10px;
+}
+
+.perant2 p .red{
+    color: #e91f64;
+    font-weight: 800;
+}
+
+.perant2 p .green{
+    color: #009688;
+    font-weight: 800;
+}
+
+.perant3{
+    display: flex;
+    background-color: #fff;
+    width: 900px;
+    height: 250px;
+    border-radius: 5px;
+    flex-direction: column;
+    padding: 10px;
+    margin:30px auto;
+}
+
+.perant3 .c1{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: 1fr 1fr;
+    justify-content: space-between;
+}
+
+.perant3 .c1 img{
+    width: 60px;
+    height: 60px;
+    display: inline;
+    margin-top: 5px;
+}
+
+.perant3 .c1 .opc{
+    opacity: 0.3;
+}
+
+.perant4{
+    display: flex;
+    background-color: #fff;
+    width: 900px;
+    height: 150px;
+    border-radius: 5px;
+    flex-direction: column;
+    padding: 15px;
+    margin: 30px auto;
+}
+
+h3{
+    color: #fff;
+    background-color: #607d8b;
+    font-weight: 800;
+    width: 125px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 5px;
+}
+
+.perant5{
+    display: flex;
+    background-color: #fff;
+    width: 900px;
+    height: 425px;
+    border-radius: 5px;
+    flex-direction: column;
+    padding: 15px;
+    margin:30px auto;
+}
+
+.perant5 div{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #eee;
+    padding: 5px;
+}
