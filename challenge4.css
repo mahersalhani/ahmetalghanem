@@ -54,7 +54,7 @@ body{
 .a1 .level{
     width: 85%;
     height: 18px;
-    background-image: linear-gradient(to right, #009688 80% , #ddd 80%);
+    background-image: linear-gradient(to right, #009688 40% , #ddd 40%);
     border-radius: 6px;
     margin-top: -14px;
     margin-bottom: 7 px;
